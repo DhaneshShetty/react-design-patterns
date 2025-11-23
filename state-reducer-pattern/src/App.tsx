@@ -3,7 +3,7 @@ import ProgressBar from './components/ProgressBar'
 import Questions from './components/Questions'
 import { StepCounter } from './components/StepCounter'
 import { QuestionContextProvider } from './provider/QuestionContextProvider'
-import defaultReducer from './reducers/defaultReducer'
+//import defaultReducer from './reducers/defaultReducer'
 import noSkipReducer from './reducers/noSkipReducer'
 
 function App() {

@@ -1,0 +1,8 @@
+.app-container { 
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 48px;    
+  height: calc(100vh - 96px);
+  width: calc(100% - 96px); /* <-- subtract left+right margin */
+}
