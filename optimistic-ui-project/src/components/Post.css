@@ -1,0 +1,31 @@
+.postImage {
+  width: 90%;
+  height: 500px;
+  border-radius: 8px;
+  margin: 16px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.post {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
